@@ -1,0 +1,106 @@
+/* custom properties */
+:root{
+    --family-body: 'Open Sans', sans-serif;
+    --family-headings: 'Poppins', sans-serif;
+
+    --Pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+
+    --padding-section: 90px 0;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+body{
+    font-family: var(--family-body);
+}
+/* class container: all elements with a width and the rest has to be hidden */
+.container{
+    width: 90%;
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--padding-section);
+}
+.hero{
+    /* special padding-section conditions */
+    --padding-section: 0 0 60px 0;
+    /* to darken background image */
+    background-color: var(--Very-Pale-Cyan);
+    background-image: url(../images/bg-hero-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.nav{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* special padding-section conditions */
+    --padding-section: 0;
+}
+.nav__logo{
+    width: 100%;
+    max-width: 150px;
+    /* take out a little border down */
+    display: block;
+}
+.nav__cta{
+    text-decoration: none;
+    color: var(--Very-Dark-Cyan);
+    font-size: 700;
+    background-color: var(--Very-Pale-Cyan);
+    padding: .5em 1.5em;
+    border-radius: 30px;
+    box-shadow: 0 0 10px -3px hsl(192 100% 9% / .4);
+    margin-right: 2px;
+}
+.hero__main{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    /* spacing */
+    gap: 40px
+}
+.hero__texts{
+    text-align: center;
+}
+.hero__title{
+    font-size: 1.7rem;
+    font-family: var(--family-headings);
+}
+.hero__paragraph{
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+.hero__button{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--Very-Pale-Cyan);
+    background-color: var(--Pink);
+    padding: .7em 2.8em;
+    border-radius: 25px;
+}
+.hero__mockup{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+/* section main */
+/* .section{
+    background-color: #000;
+} */
+
+
+
+/* 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
