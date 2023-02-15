@@ -86,7 +86,7 @@ body{
     padding: .7em 2.8em;
     border-radius: 25px;
 }
-.hero__mockup{
+.hero__img{
     width: 100%;
     max-width: 500px;
     display: block;
@@ -95,10 +95,40 @@ body{
 }
 
 /* section main */
-/* .section{
-    background-color: #000;
-} */
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.section{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    box-shadow: 0 0 4px hsl(192, 100%, 9%, .3);
+    border-radius: 8px;
+    padding: 2em 1em;
+}
+.section__img{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.section__texts{
+    text-align: center;
+}
+.section__title{
+    color: var(--Very-Dark-Cyan);
+    font-size: 1.8rem;
+}
+.section__paragraph{
+    margin-top: 1em;
+    line-height: 1.5;
+    color: var(--Grayish-Blue);
 
+}
 
 
 /* 
