@@ -1,3 +1,8 @@
+Challenge from [Frontend Mentor](https://www.frontendmentor.io)
+The challenge is to build out a landing page and get it looking as similar as possible to the design
+
+I used mobile-firts and desktop-design next.
+
 # Front-end Style Guide
 
 ## Layout
@@ -37,8 +42,7 @@ The designs were created to the following widths:
 
 ## Icons
 
-For the social icons, you can use a font icon library. Some suggestions can be found below:
+For the social icons, the font icon library that I was used:
 
-- [Font Awesome](https://fontawesome.com/)
-- [IcoMoon](https://icomoon.io/)
-- [Ionicons](https://ionicons.com/)
+- [Icons](https://boxicons.com/?query=instagr)
+  

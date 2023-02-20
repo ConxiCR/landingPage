@@ -205,8 +205,8 @@ body{
 .footer__media{
     display: inline-flex;
     border: 1px solid #fff;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;    
     align-items: center;
     justify-content: center;
@@ -215,8 +215,3 @@ body{
     margin-top: 30px;
 }
 
-
-
-/* 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); } */
