@@ -138,6 +138,7 @@ body{
     background-image: linear-gradient(to bottom, #fff 50%, var(--Very-Dark-Cyan) 50%);
 }
 .email__container{
+    max-width: 700px;
     padding: 3em 2em;
     text-align: center;
     background-color: #fff;
@@ -214,4 +215,104 @@ body{
 .footer__copy{
     margin-top: 30px;
 }
+/* desktop view */
+@media (min-width: 768px){
+    .hero{
+        background-image: url(../images/bg-hero-desktop.svg);
+    }
+    .nav__logo{
+        max-width: 180px;
+    }
+    .nav__cta{
+        padding: .8em 3.5em;
+    }
+    /* hero */
+    .hero__main{
+        align-items: center;
+        flex-direction: row;
+        /* spacing */
+        gap: 70px
+    }
+    .hero__texts{
+        width: 50%;
+        text-align: left;
+        height: max-content;
+    }
+    .hero__title{
+        font-size: 2.5rem;
+    }
+    .hero__figure{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .hero__img{
+        /* come back to origin valors */
+        max-width: unset;
+    }
+    /* section main */
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .section{
+        padding: 4em 2.5em;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: left;
+    }
+    .section--reverse{
+        flex-direction: row;
+    }
+    .section__figure{
+        width: 50%;
+    }
+    .section__texts{
+        width: 50%;
+        /* heritage from father(section) */
+        text-align: inherit;
+    }
+    /* section mail */
 
+    /* section footer */
+    .footer__container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .footer__figure{
+        width: 100%;
+    }
+    .footer__logo{
+        margin-bottom: 0;
+    }
+    .footer__directions{
+        width: min-content;
+    }
+    .footer__list{
+        width: max-content;
+    }
+    .footer__list--first{
+        margin: 0;
+    }
+    .footer__item{
+        color: #fff;
+    }
+    .footer__contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        width: 30%;
+    }
+    .footer__socialMedia{
+        justify-content: flex-start;
+    }
+    .footer__media{
+        display: inline-flex;
+    }
+    .footer__copy{
+        margin-top: auto;
+    }
+}
