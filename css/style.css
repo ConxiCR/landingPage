@@ -7,6 +7,7 @@
     --Very-Pale-Cyan: hsl(193, 100%, 96%);
     --Very-Dark-Cyan: hsl(192, 100%, 9%);
     --Grayish-Blue: hsl(208, 11%, 55%);
+    --box-shadow-section: 0 0 10px 3px hsl(192, 100%, 9%, .3);
 
     --padding-section: 90px 0;
 }
@@ -126,7 +127,31 @@ body{
     margin-top: 1em;
     line-height: 1.5;
     color: var(--Grayish-Blue);
+}
+.email{
+    padding: var(--padding-section);
+    background-image: linear-gradient(to bottom, #fff 50%, var(--Very-Dark-Cyan) 50%);
+}
+.email__container{
+    padding: 3em 2em;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: var(--box-shadow-section);
+    border-radius: 10px;
+}
+.email__title{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--Very-Pale-Cyan);
+    background-color: var(--Pink);
+    padding: .7em 2.8em;
+    border-radius: 25px;
 
+    box-shadow: var(--box-shadow-section);
 }
 
 
