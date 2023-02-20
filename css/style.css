@@ -79,13 +79,16 @@ body{
     margin: 1rem 0;
     line-height: 1.5;
 }
-.hero__button{
+/* change name: button of hero and main are the same */
+.button{
     display: inline-block;
     text-decoration: none;
     color: var(--Very-Pale-Cyan);
     background-color: var(--Pink);
     padding: .7em 2.8em;
     border-radius: 25px;
+
+    box-shadow: var(--box-shadow-section);
 }
 .hero__img{
     width: 100%;
@@ -143,17 +146,6 @@ body{
     font-size: 1.8rem;
     margin-bottom: 2rem;
 }
-.button{
-    display: inline-block;
-    text-decoration: none;
-    color: var(--Very-Pale-Cyan);
-    background-color: var(--Pink);
-    padding: .7em 2.8em;
-    border-radius: 25px;
-
-    box-shadow: var(--box-shadow-section);
-}
-
 
 /* 
 .attribution { font-size: 11px; text-align: center; }
