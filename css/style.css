@@ -125,6 +125,7 @@ body{
 .section__title{
     color: var(--Very-Dark-Cyan);
     font-size: 1.8rem;
+    font-family: var(--family-headings);
 }
 .section__paragraph{
     margin-top: 1em;
@@ -146,6 +147,7 @@ body{
 .email__title{
     font-size: 1.8rem;
     margin-bottom: 2rem;
+    font-family: var(--family-headings);
 }
 /* section footer */
 .footer{
